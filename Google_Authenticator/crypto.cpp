@@ -325,7 +325,7 @@ unsigned long GetTOTP( char *key, unsigned int key_length )
 
 	KEY_BLOB *kb = NULL;
 
-	unsigned char *dkey = ( unsigned char * )GlobalAlloc( GMEM_FIXED, sizeof( unsigned char * ) * key_length );
+	unsigned char *dkey = ( unsigned char * )GlobalAlloc( GMEM_FIXED, sizeof( unsigned char ) * key_length );
 	unsigned int dkey_length = base32_decode( ( unsigned char * )key, dkey );
 
 	if ( dkey_length == 0 )

@@ -765,7 +765,7 @@ int main( int argc, char *argv[] )
 						{
 							wchar_t msg[ 512 ];
 							_snwprintf_s( msg, 512, L"Google Authenticator is made free under the GPLv3 license.\r\n\r\n" \
-													L"Version 1.0.0.0 (%u-bit)\r\n\r\n" \
+													L"Version 1.0.0.1 (%u-bit)\r\n\r\n" \
 													L"Built on %s, %s %d, %04d %d:%02d:%02d %s (UTC)\r\n\r\n" \
 													L"Copyright \xA9 2019 Eric Kutcher",
 #ifdef _WIN64
